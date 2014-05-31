@@ -212,7 +212,7 @@
  */
 $databases['default']['default'] = array(
   'driver' => 'mysql',
-  'database' => 'drupal-volunteeritt-test',
+  'database' => 'drupal-volunteeritt',
   'username' => 'drupal',
   'password' => 'o6VQpRRR',
   'host' => 'localhost',
