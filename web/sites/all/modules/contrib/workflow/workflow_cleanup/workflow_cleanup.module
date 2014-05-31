@@ -1,0 +1,32 @@
+<?php
+/**
+ * @file
+ * Cleans up Workflow cruft that may build up over time.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function workflow_cleanup_menu() {
+  $items = array();
+
+  $items['admin/config/workflow/workflow/cleanup'] = array(
+    'title' => 'Clean up workflow',
+    'file' => 'workflow_cleanup.pages.inc',
+    'access arguments' => array('administer workflow'),
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('workflow_cleanup_form'),
+    'type' => MENU_LOCAL_ACTION,
+  );
+
+  return $items;
+}
+
+/**
+ * Implements hook_theme().
+ */
+function workflow_cleanup_theme() {
+  return array(
+    'workflow_cleanup_form' => array('render element' => 'form'),
+  );
+}
