@@ -1,10 +1,10 @@
 ENVIRONMENTS = {
-  "live" => ["",
-             "/home/members/agariclabs/sites/itstimevolunteer.org/web",
+  "live" => ["volunteeritt@sojourner.mayfirst.org",
+             "/home/members/agariclabs/sites/thesudeshop.com/web",
              "stable",
             ],
-  "test" => ["",
-             "/var/local/drupal/itstimevolunteer-test/web",
+  "test" => ["vlad@simone.mayfirst.org",
+             "/var/local/drupal/volunteeritt-test/web",
             ],
 }
 TAGNAMES = %w(qa stable)
