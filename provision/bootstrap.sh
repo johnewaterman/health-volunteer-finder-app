@@ -28,7 +28,7 @@ fi
 
 export DRAKE=/usr/local/share/drake
 if [ ! -d $DRAKE ]; then
-	git clone vlad@simone.mayfirst.org:/srv/git/agaric/drake.git $DRAKE
+  git clone git@gitorious.org:drake/drake.git $DRAKE
 fi
 
 chmod -R u+w /vagrant/web/sites/default
