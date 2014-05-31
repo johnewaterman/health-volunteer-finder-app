@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit>
+  <testsuites>
+    <testsuite name="integration">
+      <directory suffix=".php">/vagrant/tests/integration</directory>
+    </testsuite>
+  </testsuites>
+  <listeners>
+    <listener class="DrupalTestListener" file="/vagrant/tests/DrupalTestListener.php" />
+  </listeners>
+  <php>
+    <includePath>/vagrant/tests</includePath>
+    <const name="DRUPAL_ROOT" value="/vagrant/web" />
+  </php>
+</phpunit>

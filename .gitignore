@@ -1,0 +1,6 @@
+.sass-cache/
+/build/
+/web/sites/all/themes/pih_bootstrap/css/
+/web/sites/default/files/
+/web/sites/default/settings.php
+/.vagrant/

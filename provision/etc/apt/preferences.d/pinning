@@ -1,0 +1,23 @@
+Package: *
+Pin: release a=stable
+Pin-Priority: 900
+
+Package: *
+Pin: release a=wheezy-backports
+Pin-Priority: 600
+
+Package: *
+Pin: release a=testing
+Pin-Priority: 500
+
+Package: drush
+Pin: release a=testing
+Pin-Priority: 990
+
+Package: ruby-sass
+Pin: release a=testing
+Pin-Priority: 990
+
+Package: compass-susy-plugin
+Pin: release a=testing
+Pin-Priority: 990
